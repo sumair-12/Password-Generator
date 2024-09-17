@@ -10,8 +10,9 @@ root.configure(bg="#282828")
 root.geometry("400x400")
 root.title("Folder Generator")
 root.resizable(height=False,width=False)
-icon_image = PhotoImage(file="F:/newfil/Folder Generator.png")
-root.iconphoto(True,icon_image)
+#icon_image = PhotoImage(file="F:/newfil/Folder Generator.png")
+#root.iconphoto(True,icon_image)
+# You Can use a Picture Path of Your Own in Above 2 lines of code  
 
 folder_gen = Label(root,text="Folder Generator",bg="#282828",fg="#3eb3d4",font=("Mogra","30"))
 
